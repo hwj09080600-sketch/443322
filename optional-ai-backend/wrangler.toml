@@ -1,0 +1,7 @@
+name = "sentry-experiment-assistant"
+main = "worker.js"
+compatibility_date = "2026-11-04"
+
+[vars]
+OPENAI_MODEL = "gpt-5-mini"
+# Do not put an API key here. Use Cloudflare Worker Secrets: OPENAI_API_KEY.
